@@ -8,9 +8,18 @@ importers:
 
   .:
     dependencies:
+      action@v3:
+        specifier: link:withastro/action@v3
+        version: link:withastro/action@v3
       astro:
         specifier: ^5.3.1
         version: 5.3.1(rollup@4.34.8)(typescript@5.7.3)
+      checkout@v4:
+        specifier: link:actions/checkout@v4
+        version: link:actions/checkout@v4
+      deploy-pages@v4:
+        specifier: link:actions/deploy-pages@v4
+        version: link:actions/deploy-pages@v4
 
 packages:
 

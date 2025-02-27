@@ -9,6 +9,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.3.1"
+    "action@v3": "link:withastro/action@v3",
+    "astro": "^5.3.1",
+    "checkout@v4": "link:actions/checkout@v4",
+    "deploy-pages@v4": "link:actions/deploy-pages@v4"
   }
 }
